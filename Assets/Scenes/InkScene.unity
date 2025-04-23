@@ -190,9 +190,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: cb3b8e848943fad4e8d95e03bedcfbfe, type: 2}
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []
 --- !u!114 &114722741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -399,7 +398,52 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 963511508}
+    - targetCorrespondingSourceObject: {fileID: 974238578668270704, guid: c708a3b79cd542b42bbfedb17e213bc1,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 307856097}
+    - targetCorrespondingSourceObject: {fileID: 974238578668270704, guid: c708a3b79cd542b42bbfedb17e213bc1,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 307856096}
   m_SourcePrefab: {fileID: 100100000, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
+--- !u!1 &307856095 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 974238578668270704, guid: c708a3b79cd542b42bbfedb17e213bc1,
+    type: 3}
+  m_PrefabInstance: {fileID: 307856094}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &307856096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307856095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: cb3b8e848943fad4e8d95e03bedcfbfe, type: 2}
+--- !u!114 &307856097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307856095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &673564474
 GameObject:
   m_ObjectHideFlags: 0
@@ -872,7 +916,7 @@ Transform:
   m_GameObject: {fileID: 1360463033}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.42, y: 0.82343674, z: -1.8949361}
+  m_LocalPosition: {x: 1.42, y: 0.99, z: -1.8949361}
   m_LocalScale: {x: 1, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
